@@ -1,8 +1,33 @@
 # Redes Complexas — Questionários
 
+<p align="center">
+  <img alt="Disciplina" src="https://img.shields.io/badge/SME0130-Redes%20Complexas-blue?style=for-the-badge">
+  <img alt="Instituição" src="https://img.shields.io/badge/USP-Universidade%20de%20S%C3%A3o%20Paulo-orange?style=for-the-badge">
+</p>
+
+> **Disciplina:** SME0130 - Redes Complexas <br>
+> **Professor:** Francisco A. Rodrigues <br>
+> **Instituição:** ICMC - USP - Universidade de São Paulo
+
+---
+
 Resoluções dos questionários da disciplina de Redes Complexas, em notebooks Jupyter.
 Cada notebook resolve uma lista de questões sobre medidas topológicas, centralidade,
 detecção de comunidades, classificação de redes e dinâmica epidêmica.
+
+## Stack
+
+![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![NetworkX](https://img.shields.io/badge/networkx-%232C6E9B.svg?style=for-the-badge&logo=graphql&logoColor=white)
+![graph-tool](https://img.shields.io/badge/graph--tool-%23A8322D.svg?style=for-the-badge&logo=gnometerminal&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%2311557C.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![seaborn](https://img.shields.io/badge/seaborn-%23444876.svg?style=for-the-badge&logo=python&logoColor=white)
+![EoN](https://img.shields.io/badge/EoN-epidemics-%2300A98F?style=for-the-badge)
 
 ## Conteúdo
 
