@@ -1,4 +1,4 @@
-# 🕸️📈 SME0130 - Redes Complexas: Questionários
+# SME0130 - Redes Complexas: Questionários
 
 Resoluções dos questionários da disciplina **SME0130 - Redes Complexas**, em notebooks Jupyter. Cada notebook resolve uma lista de questões sobre medidas topológicas, centralidade, detecção de comunidades, classificação de redes e dinâmica epidêmica.
 
@@ -7,9 +7,9 @@ Resoluções dos questionários da disciplina **SME0130 - Redes Complexas**, em 
   <img alt="Instituição" src="https://img.shields.io/badge/USP-Universidade%20de%20S%C3%A3o%20Paulo-orange?style=for-the-badge">
 </p>
 
-> 📚 **Disciplina:** SME0130 - Redes Complexas <br>
-> 👨‍🏫 **Professor:** Francisco A. Rodrigues <br>
-> 🏛️ **Instituição:** ICMC - USP - Universidade de São Paulo
+> **Disciplina:** SME0130 - Redes Complexas <br>
+> **Professor:** Francisco A. Rodrigues <br>
+> **Instituição:** ICMC - USP - Universidade de São Paulo
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -25,13 +25,13 @@ Resoluções dos questionários da disciplina **SME0130 - Redes Complexas**, em 
   <img src="https://img.shields.io/badge/EoN-epidemics-00A98F?style=for-the-badge" alt="EoN" />
 </p>
 
-## 📋 Requisitos
+## Requisitos
 
 - **Python 3** e **Jupyter**
 - Pacotes Python: `networkx`, `numpy`, `scipy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `EoN`
 - **graph-tool** (só para o `quest7.ipynb`), que **não** instala via pip: as redes reais vêm de `graph_tool.collection.ns`
 
-## 🚀 Como Executar
+## Como Executar
 
 ```bash
 pip install networkx numpy scipy pandas matplotlib seaborn scikit-learn EoN
@@ -52,7 +52,7 @@ jupyter lab   # ou jupyter notebook
 
 Os notebooks leem os dados por caminho relativo (`data/data/...`), então execute-os a partir da raiz do repositório.
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -63,7 +63,7 @@ Os notebooks leem os dados por caminho relativo (`data/data/...`), então execut
 
 `resultados_redes.csv` é gerado pelo [quest7.ipynb](quest7.ipynb), com uma linha por rede e as colunas `num_nodes`, `num_edges`, `density`, `avg_degree`, `transitivity`, `assortativity`, `expectation` (⟨k⟩), `variance` (⟨k²⟩), `av_cl` (clustering médio), `l` (menor caminho médio), `nome`, `classe` (Biologica / Social / Tecnologia / Modelo) e `tipo` (Real / ER / WS / BA).
 
-## ✨ Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 | Notebook | Tema | O que faz |
 |---|---|---|
